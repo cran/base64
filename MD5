@@ -1,0 +1,10 @@
+2fa78119c6273ff569090e2d4f2ea4ab *DESCRIPTION
+63703643df5c8f28f2187dc1a195d930 *NAMESPACE
+d26a854c4c2e48df4d6c1b650bd06ed7 *R/base64.R
+4d12b5f884bd16eb7414273d712c9f17 *build/partial.rdb
+4511f7fdecb8a675fa2b7fc132eeaa27 *man/base64-package.Rd
+c73c9a12776a01d43bfb931a23227ac3 *man/decode.Rd
+c8b16a6147a270059ab65259b4ba36a6 *man/encode.Rd
+aecc5f73c32f3f1b6a6c8d5caa8b4c53 *man/img.Rd
+85b867f6276bfa58a1659b49c90f81f7 *src/base64.c
+91eb08917d113beade58848c2e938693 *src/base64.h
