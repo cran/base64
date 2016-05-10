@@ -1,20 +1,16 @@
 Package: base64
 Type: Package
-Title: Base 64 encoder/decoder
-Version: 1.1
-Date: 2010-04-04
-Author: Romain Francois, based on code by Bob Trower available at
-        http://base64.sourceforge.net/
-Maintainer: ORPHANED
-Description: Base 64 encoder/decoder
-License: GPL (>= 2)
-LazyLoad: yes
-URL:
-        http://romainfrancois.blog.free.fr/index.php?category/R-package/base64
-Packaged: 2011-12-03 12:22:31 UTC; romain
+Title: Base64 Encoder and Decoder
+Version: 2.0
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Description: Compatibility wrapper to replace the orphaned package by
+    Romain Francois. New applications should use the 'openssl' or
+    'base64enc' package instead.
+License: MIT + file LICENSE
+Imports: openssl
+RoxygenNote: 5.0.1
+NeedsCompilation: no
+Packaged: 2016-05-10 19:43:36 UTC; jeroen
 Repository: CRAN
-Date/Publication: 2011-12-03 11:23:14
-X-CRAN-Original-Package: base64
-X-CRAN-Original-Maintainer: Romain Francois <romain@r-enthusiasts.com>
-X-CRAN-Comment: Orphaned on 2012-07-18 as the orginal maintainer,
-        Romain Francois <romain@r-enthusiasts.com>, is unresponsive.
+Date/Publication: 2016-05-10 23:57:02
